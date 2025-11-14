@@ -9,7 +9,12 @@ Blockly.Python['bleepbloop_bleep'] = function(block) {
 };
 
 Blockly.Python['bleepbloop_bloop'] = function(block) {
+    var code = 'bleepbloop.bleep()\n';
+    return code;
+};
+
+Blockly.Python['bleepbloop_blorp'] = function(block) {
     var parameters = Blockly.Python.valueToCode(block, 'parameters', 0);
-    var code = `bleepbloop.bloop(${parameters})\n`;
+    var code = `bleepbloop.blorp(${parameters})\n`;
     return code;
 };

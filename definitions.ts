@@ -20,10 +20,21 @@ Blockly.Blocks['bleepbloop_bleep'] = {
     }
 };
 
+
 Blockly.Blocks['bleepbloop_bloop'] = {
     init: function() {
       this.appendDummyInput()
-          .appendField("bleepbloop.bloop(");
+          .appendField("bleepbloop.bleep()");
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour(bleepColor);
+    }
+};
+
+Blockly.Blocks['bleepbloop_blorp'] = {
+    init: function() {
+      this.appendDummyInput()
+          .appendField("bleepbloop.blorp(");
       this.appendValueInput("parameters")
         .setCheck(null);
       this.appendDummyInput()
