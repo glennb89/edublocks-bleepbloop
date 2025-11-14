@@ -1,0 +1,7 @@
+<category name="BleepBloop" colour="#5b5b6b" css-icon="customIcon fad fa-robot">
+    <label text="BleepBloop"></label>
+
+    <block type="import_bleepbloop"></block>
+    <block type="bleepbloop_bleep"></block>
+    <block type="bleepbloop_bloop"></block>
+</category>
