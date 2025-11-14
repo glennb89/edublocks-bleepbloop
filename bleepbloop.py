@@ -2,7 +2,7 @@ def bleep():
     print("bleep")
 
 def bloop():
-    print()
+    print("bloop")
 
 def blorp(msg):
     print(msg)
