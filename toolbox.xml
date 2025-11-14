@@ -2,17 +2,16 @@
     <label text="BleepBloop"></label>
 
     <block type="import_bleepbloop"></block>
+
     <block type="bleepbloop_bleep"></block>
+
     <block type="bleepbloop_bloop"></block>
+
     <block type="bleepbloop_blorp">
-        <value name="parameters">
-            <shadow type="parameters">
-                <mutation color="#5b5b6b" items="1" minimum="1" limit="1" inputType="text" />
-                <value name="input_1">
-                    <shadow type="inline_text">
-                        <field name="value">"blorp"</field>
-                    </shadow>
-                </value>
+        <mutation color="#5b5b6b" items="1" minimum="1" limit="1" inputType="text" />
+        <value name="text">
+            <shadow type="text">
+                <field name="value">"blorp"</field>
             </shadow>
         </value>
     </block>
