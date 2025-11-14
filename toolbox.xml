@@ -5,8 +5,13 @@
     <block type="bleepbloop_bleep"></block>
     <block type="bleepbloop_bloop">
         <value name="parameters">
-            <shadow type="inline_text">
-                <field name="value">bloop</field>
+            <shadow type="parameters">
+                <mutation color="#5b5b6b" items="1" minimum="1" limit="1" inputType="text" />
+                <value name="input_1">
+                    <shadow type="inline_text">
+                        <field name="value">"bloop"</field>
+                    </shadow>
+                </value>
             </shadow>
         </value>
     </block>
