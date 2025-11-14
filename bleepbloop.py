@@ -1,5 +1,5 @@
 def bleep():
     print("bleep")
 
-def bloop():
-    print("bloop")
+def bloop(msg):
+    print(msg)

@@ -23,7 +23,11 @@ Blockly.Blocks['bleepbloop_bleep'] = {
 Blockly.Blocks['bleepbloop_bloop'] = {
     init: function() {
       this.appendDummyInput()
-          .appendField("bleepbloop.bloop()");
+          .appendField("bleepbloop.bloop(");
+      this.appendValueInput("parameters")
+        .setCheck(null);
+      this.appendDummyInput()
+          .appendField(")");
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(bleepColor);

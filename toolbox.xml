@@ -3,5 +3,11 @@
 
     <block type="import_bleepbloop"></block>
     <block type="bleepbloop_bleep"></block>
-    <block type="bleepbloop_bloop"></block>
+    <block type="bleepbloop_bloop">
+        <value name="parameters">
+            <shadow type="inline_text">
+                <field name="value">bloop</field>
+            </shadow>
+        </value>
+    </block>
 </category>
