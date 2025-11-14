@@ -8,9 +8,9 @@
     <block type="bleepbloop_bloop"></block>
 
     <block type="bleepbloop_blorp">
-        <mutation color="#5b5b6b" items="1" minimum="1" limit="1" inputType="text" />
-        <value name="text">
-            <shadow type="text">
+        <mutation color="#5b5b6b" items="1" minimum="1" limit="1" inputType="inline_text" />
+        <value name="inline_text">
+            <shadow type="inline_text">
                 <field name="value">"blorp"</field>
             </shadow>
         </value>

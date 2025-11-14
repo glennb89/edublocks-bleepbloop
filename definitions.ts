@@ -35,7 +35,7 @@ Blockly.Blocks['bleepbloop_blorp'] = {
     init: function() {
       this.appendDummyInput()
           .appendField("bleepbloop.blorp(");
-      this.appendValueInput("parameters")
+      this.appendValueInput("text")
         .setCheck(null);
       this.appendDummyInput()
           .appendField(")");

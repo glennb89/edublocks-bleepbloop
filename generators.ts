@@ -14,7 +14,5 @@ Blockly.Python['bleepbloop_bloop'] = function(block) {
 };
 
 Blockly.Python['bleepbloop_blorp'] = function(block) {
-    var text = Blockly.Python.valueToCode(block, 'text', 0);
-    var code = `bleepbloop.blorp(${text})\n`;
-    return code;
+    return `bleepbloop.blorp(${Blockly.Python.valueToCode(block, "text", 0)})\n`;
 };
