@@ -18,3 +18,10 @@ Blockly.Python['bleepbloop_blorp'] = function(block) {
     var code = `bleepbloop.blorp(${parameters})\n`;
     return code;
 };
+
+Blockly.Python['bleepbloop_blonk'] = function(block) {
+    var result = Blockly.Python.nameDB_.getName(block.getFieldValue("result"),Blockly.VARIABLE_CATEGORY_NAME);
+    var parameters = Blockly.Python.valueToCode(block, "text", 0);
+    var code = `${result} = bleepbloop.blonk(${parameters})\n`;
+    return code;
+};

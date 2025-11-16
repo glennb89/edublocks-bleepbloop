@@ -19,4 +19,22 @@
             </shadow>
         </value>
     </block>
+
+    <block type="bleepbloop_blonk">
+        <value name="parameters">
+            <shadow type="parameters">
+                <mutation color="#5b5b6b" items="2" limit="2" inputType="string" />
+                <value name="input_1">
+                    <block type="variable_get">
+                        <field name="variable_name">first_number</field>
+                    </block>
+                </value>
+                <value name="input_2">
+                    <block type="variable_get">
+                        <field name="variable_name">second_number</field>
+                    </block>
+                </value>
+            </shadow>
+        </value>
+    </block>
 </category>

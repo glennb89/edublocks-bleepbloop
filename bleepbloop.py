@@ -6,3 +6,6 @@ def bloop():
 
 def blorp(msg):
     print(msg)
+
+def blonk(num_a,num_b):
+    return int(num_a)*int(num_b)
